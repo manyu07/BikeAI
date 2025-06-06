@@ -20,3 +20,15 @@ A data-driven cycling analytics and personalized training recommendation platfor
 - Models: sklearn / rule-based engine
 - API: Strava API, map providers
 - Storage: SQLite / CSV / Cloud database
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/manyu07/bikeAI.git
+cd cycling-intelligence
+# Setup virtual environment
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+# Run Streamlit app (if available)
+streamlit run app.py
